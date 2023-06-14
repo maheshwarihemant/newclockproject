@@ -1,0 +1,363 @@
+body{
+    background-color: #3D087B;
+}
+
+.clock{
+   
+    background-image: url(./clock_logo@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px; width: 200px;
+    position: relative; left: 10%;
+}
+
+.parent{
+    border: 2px solid #3D087B;
+    background-color: #FFFFFF;
+    color: #3D087B;
+    width: 450px; height: 300px;
+    border-radius: 8px;
+    position: relative; left: 10%;
+}
+.W{
+    background-image: url(./wake_up.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px; width: 30px;
+    position: relative; top: 7%; left: 4%;
+}
+
+.Wakeup{
+    position: relative; top: -1%; left: 18%;
+}
+
+.L{
+    background-image: url(./lunch_time.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px; width: 30px;
+    position: relative; top: 3%; left: 4%;
+}
+
+.lunch{
+    position: relative; top: 1%; left: 18%;
+}
+
+.N{
+    background-image: url(./nap_time.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px; width: 30px;
+    position: relative; top: 5%; left: 4%;
+}
+
+.nap{
+    position: relative; top: 2%; left: 18%;
+}
+
+.N1{
+    background-image: url(./nap_time.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px; width: 30px;
+    background-color: #FFFFFF;
+    position: relative; top: 9%; left: 4%;
+}
+
+.night{
+    position: relative; top: 2%; left: 18%;
+}
+
+.opt{
+    width: 170px;
+    color: #3D087B;
+}
+
+.optn{
+    width: 169px;
+    color: #3D087B;
+}
+
+select option:hover{background-color:blue;}
+
+.line{
+    border-left: 2px solid black;
+    height: 30px;
+    position: relative; left: 7%; top: 3%;
+    opacity: 0.1;
+}
+
+
+.GM{
+    border: 2px solid#8A11BF; border-radius: 10px;
+    color: #FFFFFF;
+    background-color:#8E53F0;
+    width: 370px; 
+    padding: 25px;
+    position: absolute; top: 75%; left: 11%;
+    font-weight:bolder;
+}
+
+.alarm{
+    border: 2px solid#8A11BF; border-radius: 5px;
+    width: 200px; text-align: center;
+    position: absolute; top: 88%; left: 11%;
+    padding: 10px;
+    color: #FFFFFF;
+    background-image: linear-gradient(90deg, #8E53F0, #FC5EFF);
+    font-size: 18px;
+}
+
+.alarm:hover{
+    background-image: linear-gradient(90deg, #FC5EFF, #8E53F0);
+}
+
+
+
+#parent1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid #8A11BF; border-radius: 4px;
+    width: 200px; padding: 5px;
+    color: #F25CFE;
+    position: absolute; left: 28%; top:88%;
+    background-color:#8E53F0;
+}
+
+.h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute; left: 67%; top: 1%;
+    height: 100%;
+}
+.box{
+    border: 2px solid black;  border-radius: 10px;
+    width: 420px; height:100px;
+    position: absolute; top: 7%;
+    background-color:#bb96f7;
+    opacity: 1;
+   
+}
+.box1{
+    border: 2px solid black;  border-radius: 6px;
+    width: 430px; height: 100px;
+    position: absolute; top: 6%;
+    background-color:#7ee8f6;
+    opacity: 2;  
+}
+.box2{
+    border: 2px solid black;  border-radius: 6px;
+    width: 450px; height:100px;
+    position: absolute; top: 5%;
+    background-color: #FFFFFF; 
+}
+
+.h2{
+    display: flex;
+    justify-content: center; align-items: center;   
+}
+
+.h{
+    border: 2px solid #F6E2FF;
+   background-color: #F6E2FF;
+   height: 60px; width: 50px;
+   margin: 15px; display: flex; align-items: center;
+   font-size:larger; border-radius: 3px;
+   color: #8A11BF; text-align: center;
+   font-weight:bolder;
+}
+
+.semi{
+    font-size:x-large;
+}
+
+.AM{
+    border: 2px solid #F6E2FF;
+    background-color:#CB52F8;
+   height: 60px; width: 50px;
+   margin: 15px; display: flex; align-items: center; justify-content: center;
+   font-size:larger; border-radius: 3px;
+   color: #8A11BF; color: #FFFFFF;
+}
+
+.h3{
+    color: #3D087B;
+    font-weight:bolder;
+}
+
+.breakfast{
+    border: 2px solid #FFFFFF; border-radius: 5px;
+    padding: 30px;
+    font-size: larger;
+    width: 400px; text-align: center;
+    position: absolute; top: 28%; left: 50%;
+    background-color: #FFFFFF;
+    color: #8E53F0;
+    font-weight:bolder;
+}
+
+#morningimage{
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-image: url(./Component\ 31\ –\ 1.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 455px; height: 300px; 
+    position: absolute; top: 47%; left: 50%;
+}
+
+#change1  {
+    margin-left: 27%; 
+   
+}
+#change2{
+    margin-left: 29%; 
+}
+
+#change3{
+    margin-left: 32%; 
+}
+
+#change4{
+    margin-left: 29%; 
+}
+
+
+
+
+
+/* Media queries */
+
+/* Responsive queries */
+@media only screen and (max-width: 856px){
+
+    .clock{
+        position: relative; left: 0%;
+        /* bottom: 50%; */
+    }
+    .h1{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+    }
+
+
+   .parent{
+    position: absolute; top:50%; left: 1%;
+    width: 350px; height: 425px;
+   }
+
+   .boxparent{
+   position: relative; top: 5%; left: -23%;
+   /* width: 450px; */
+   }
+
+   .breakfast{
+    left: 1%; top: 34%;
+   }
+
+   .GM{
+    position: absolute; top: 93%; left: 44%;
+    width: 300px;
+   }
+
+   .alarm{
+    position: absolute; top: 105%; left: 44%;
+   }
+
+   #parent1{
+    position: absolute; top: 35%; left: 58%;
+    width: 225px; padding: 10px;
+   }
+
+   #morningimage{
+    width: 350px; height: 350px;
+    position: absolute; top: 54%; left: 44%;
+    background-size: contain;
+   }
+
+   #change1{
+    margin-left: 37%;   
+   }
+
+    #change2{
+        margin-left: 37%; margin-top: 5%;  
+    }
+
+    #change3{
+            margin-left: 37%; margin-top: 5%;  
+    }
+
+    #change4{
+        margin-left: 37%; margin-top: 5%; 
+    }
+
+
+}
+
+    /* Media queries */
+
+/* Mobile Screen queries */
+@media only screen and (max-width:545px){
+
+.classbox2{
+    margin-left: 30%;
+}
+.box{
+    margin-left: 5%;
+}
+.b{
+    height: 40px; width: 40px;
+}
+
+.breakfast{
+    padding: 5px; width: 290px; 
+}
+
+#parent1{
+top: 170%; left: 2%;
+}
+
+.parent{
+    top: 45%;
+}
+
+#morningimage{
+    top: 115%; left: 2%;
+}
+
+.GM{
+    top: 150%; left: 2%;
+}
+
+.alarm{
+    top: 163%; left: 2%;
+}
+
+}
+
+ /* Media queries */ 
+
+/* Mobile Screen queries */
+ @media only screen and (max-width:414px){
+    .breakfast{
+        padding: 5px; width: 290px; 
+        top: 25%;
+    }   
+    .parent{
+        top: 34%;
+    }
+    #morningimage{
+        top: 86%;
+    }
+    .GM{
+        top: 115%;
+    }
+    .alarm{
+        top: 125%;
+    }
+    #parent1{
+        top: 132%;
+    }
+}
