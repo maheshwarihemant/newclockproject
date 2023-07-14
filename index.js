@@ -124,7 +124,7 @@ function settalarm(){
     else if(hours === parseInt(night.value)){
         MG[0].innerText= 'GOOD NIGHT!!'
         GM[0].innerText= 'CLOSE YOUR EYES AND GO TO SLEEP'
-        photo[0].style.backgroundImage="url('./goodnight_image.svg')"
+        photo[0].style.backgroundImage="url('./WhatsApp Image 2023-07-14 at 10.57.15 AM.jpeg')"
     }
 
 }
