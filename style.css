@@ -341,23 +341,31 @@ top: 170%; left: 2%;
 
 /* Mobile Screen queries */
  @media only screen and (max-width:414px){
+  @media only screen and (max-width:414px){
     .breakfast{
-        padding: 5px; width: 290px; 
+        padding: 9px;
+        width: 324px;
         top: 25%;
+        left: 9%;
     }   
     .parent{
         top: 34%;
+        left: 9%;
     }
     #morningimage{
         top: 86%;
+        left: 9%;
     }
     .GM{
         top: 115%;
+        left: 9%;
     }
     .alarm{
         top: 125%;
+        left: 10%;
     }
     #parent1{
         top: 132%;
+        left: 9%;
     }
 }
