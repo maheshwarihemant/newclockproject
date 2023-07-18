@@ -272,7 +272,7 @@ select option:hover{background-color:blue;}
     }
     .alarm{
         top: 1073px;
-        left: 56px;
+        left: 118px;
         width: 305px;
         height: 60px;
         font-size: 38px;
@@ -280,8 +280,8 @@ select option:hover{background-color:blue;}
     
     #parent1{
         top: 1153px;
-        width: 348px;
+        width: 395px;
         font-size: 35px;
-        left: 56px;
+        left: 71px;
     }
 }
