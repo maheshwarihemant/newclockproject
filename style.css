@@ -230,142 +230,58 @@ select option:hover{background-color:blue;}
 /* Media queries */
 
 /* Responsive queries */
-@media only screen and (max-width: 856px){
-
+@media screen and (min-width :300px) and (max-width:856px){
     .clock{
-        position: relative; left: 0%;
-        /* bottom: 50%; */
+        left: 100px;
     }
-    .h1{
-        position: absolute;
-        top: 5%;
-        left: 50%;
+    .box2{
+        top: 86px;
+        left: -240px;
+        width: 500px;
     }
-
-
-   .parent{
-    position: absolute; top:50%; left: 1%;
-    width: 350px; height: 425px;
-   }
-
-   .boxparent{
-   position: relative; top: 5%; left: -23%;
-   /* width: 450px; */
-   }
-
-   .breakfast{
-    left: 1%; top: 34%;
-   }
-
-   .GM{
-    position: absolute; top: 93%; left: 44%;
-    width: 300px;
-   }
-
-   .alarm{
-    position: absolute; top: 105%; left: 44%;
-   }
-
-   #parent1{
-    position: absolute; top: 35%; left: 58%;
-    width: 225px; padding: 10px;
-   }
-
-   #morningimage{
-    width: 350px; height: 350px;
-    position: absolute; top: 54%; left: 44%;
-    background-size: contain;
-   }
-
-   #change1{
-    margin-left: 37%;   
-   }
-
-    #change2{
-        margin-left: 37%; margin-top: 5%;  
+    .box1{
+        top: 93px;
+        left: -220px;
+        width: 480px;
     }
-
-    #change3{
-            margin-left: 37%; margin-top: 5%;  
+    .box{
+        top: 98px;
+        left: -200px;
+        width: 450px;
     }
-
-    #change4{
-        margin-left: 37%; margin-top: 5%; 
-    }
-
-
-}
-
-    /* Media queries */
-
-/* Mobile Screen queries */
-@media only screen and (max-width:545px){
-
-.classbox2{
-    margin-left: 30%;
-}
-.box{
-    margin-left: 5%;
-}
-.b{
-    height: 40px; width: 40px;
-}
-
-.breakfast{
-    padding: 5px; width: 290px; 
-}
-
-#parent1{
-top: 170%; left: 2%;
-}
-
-.parent{
-    top: 45%;
-}
-
-#morningimage{
-    top: 115%; left: 2%;
-}
-
-.GM{
-    top: 150%; left: 2%;
-}
-
-.alarm{
-    top: 163%; left: 2%;
-}
-
-}
-
- /* Media queries */ 
-
-/* Mobile Screen queries */
- @media only screen and (max-width:414px){
-  @media only screen and (max-width:414px){
-    .breakfast{
-        padding: 9px;
-        width: 324px;
-        top: 25%;
-        left: 9%;
-    }   
     .parent{
-        top: 34%;
-        left: 9%;
+        position: relative;
+        top: 206px;
+    width: 500px;
+
     }
-    #morningimage{
-        top: 86%;
+    .breakfast{
+        top: 216px;
+        left: 17%;
+    }
+    #morningimage {
+        top: 630px;
         left: 9%;
+        width: 518px;
     }
     .GM{
-        top: 115%;
-        left: 9%;
+        top: 970px;
+    width: 396px;
+    height: 38px;
+    font-size: 25px;
     }
     .alarm{
-        top: 125%;
-        left: 10%;
+        top: 1073px;
+        left: 56px;
+        width: 305px;
+        height: 60px;
+        font-size: 38px;
     }
+    
     #parent1{
-        top: 132%;
-        left: 9%;
+        top: 1153px;
+        width: 348px;
+        font-size: 35px;
+        left: 56px;
     }
 }
